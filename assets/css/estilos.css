@@ -1,5 +1,6 @@
-html{
+html, body{
     font-family: arial, sans-serif;
+    margin: 0px;
 }
 
 /*Estilos del formulario*/
