@@ -8,7 +8,15 @@ input {
     border-radius: 10px;
 }
 
+section{
+    float: left;
+    width: 60%;
+}
 
+aside{
+    float: right;
+    width: 40%;
+}
 
 /*Fin de estilos del formulario*/
 
