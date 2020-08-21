@@ -35,10 +35,15 @@ footer{
     margin: 6px;
     text-align: center;
     box-shadow: 1px -1px 2px 1px rgba(0, 0, 0, 0.12);
+    transition: transform .2s;
 }
+
+.autor-card:hover{
+    transform: scale(1.1);
+}
+
 
 #autors{
     display: table;
     border-spacing: 20px 5px; /*Optional*/
-
 }
