@@ -6,3 +6,31 @@ input {
 
 
 /*Fin de estilos del formulario*/
+
+/*Estilos del aside*/
+.flexAside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.youtubeVideo {
+    border-radius: 10px;
+}
+
+.ulAside {
+    list-style-type: none;
+}
+
+.linksAside {
+    text-decoration: none;
+    color: rgb(7, 72, 177);
+    font-size: 25px;
+}
+
+.linksAside:hover {
+    cursor: pointer;
+    color: rgb(35, 50, 78);
+}
+
+/*Terminan los estilos del aside*/
