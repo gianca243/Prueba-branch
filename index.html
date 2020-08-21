@@ -13,22 +13,43 @@
         <nav></nav>
     </header>
     <main>
-        <h1>Prueba branch</h1>
+        <h1>PRUEBA DE GIT GRUPO 8</h1>
     </main>
     <section>
-        <form action="">
-            <input type="text" required>
-            <input type="email" required>
-            <input type="password" required>
-            <input type="number" required>
-            <input type="submit" value="enviar">
-
-        </form>
-        <p>primer aporte</p>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="tu User " id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="tu@email.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Repetir password</label>
+                <input type="password" placeholder="Password dos" id="password2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
     </section>
-    <aside>
+    <aside class="flexAside">
         <h2>Jerarquías en Css</h2>
-        <div class="flexAside">
+        <div>
             <div>
                 <h3>Links de información</h3>
                 <ul class="ulAside">
@@ -46,7 +67,7 @@
             </div>
             <div>
                 <h3> cursos gratuitos sobre el tema</h3>
-                <iframe class="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/mU6anWqZJcc"
+                <iframe class="youtubeVideo" max-width="100%" src="https://www.youtube.com/embed/mU6anWqZJcc"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
