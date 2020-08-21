@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     font-family: arial, sans-serif;
     margin: 0px;
 }
@@ -29,7 +30,7 @@ input {
     list-style-type: none;
 }
 
-asideLi {
+.asideLi {
     text-align: center;
     padding: 0 auto;
 }
@@ -47,12 +48,12 @@ asideLi {
 }
 
 aside {
-    width: 600px;
     /* border: solid 1px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    background-color: rgb(229, 236, 236);
+    padding: 100px auto;
 }
 
 /*Terminan los estilos del aside*/
